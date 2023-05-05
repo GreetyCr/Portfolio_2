@@ -5,3 +5,74 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.flex_row {
+  display: flex;
+}
+
+.flex_column {
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  list-style: none;
+}
+
+.white {
+  color: #fff;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.center__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 15%;
+}
+
+
+/*
+Navbar
+*/
+
+#personal-logo {
+  width: 50px;
+  height: 50px;
+}
+
+#about-me {
+  background-color: #3c3a39;
+  width: 100vw;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  height: 70px;
+}
+
+.navbar__burguer {
+  color: #fff;
+  font-size: 24px;
+}
+
+/*
+
+*/
