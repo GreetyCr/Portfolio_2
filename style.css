@@ -1,0 +1,341 @@
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+hr {
+  color: solid #2f2f2f;
+  width: 90vw;
+}
+
+html {
+  font-size: 50%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.flex_row {
+  display: flex;
+}
+
+.flex_column {
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  list-style: none;
+}
+
+.white {
+  color: #fff;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.center__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 15%;
+}
+
+.padding-left-right {
+  padding: 0 2.4rem;
+}
+
+/*
+Navbar
+*/
+
+#personal-logo {
+  width: 50px;
+  height: 50px;
+}
+
+#about-me {
+  background-color: #3c3a39;
+  width: 100vw;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  height: 70px;
+}
+
+.navbar__burguer {
+  color: #fff;
+  font-size: 24px;
+}
+
+/*
+About me
+*/
+
+.about-me__section {
+  background-color: #1c1a19;
+  color: #fff;
+  padding-top: 12rem;
+  padding-bottom: 18rem;
+  position: relative;
+}
+
+.about-me__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.about-me__text {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+#about-me__title {
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 5.6rem;
+  line-height: 6.4rem;
+  letter-spacing: 0.037rem;
+  color: #ff6b00;
+}
+
+.about-me__sub-title {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+}
+
+.about-me__para {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  margin-bottom: 2.4rem;
+}
+
+.about-me__social-media {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.about-me__social-media a {
+  text-decoration: none;
+}
+
+.about-me__logo {
+  color: #dbd8d7;
+  font-size: 24px;
+  padding: 4px 12px;
+}
+
+.about-me__img-box {
+  background-image: url('./assets/Illustration.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  min-height: 100%;
+  min-width: 30%;
+  position: absolute;
+  top: 20%;
+  right: 0;
+}
+
+.projects__container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.4rem;
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+}
+
+.projects__title {
+  font-family: "Crete Round", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 52px;
+  color: #1c1a19;
+  padding-bottom: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.project__container {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+#project__img {
+  display: flex;
+  align-items: center;
+}
+
+.project__header {
+  font-size: 4rem;
+  line-height: 5.2rem;
+}
+
+.project__text--container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.2rem;
+}
+
+.project__second--header {
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.2rem;
+  line-height: 4.4rem;
+  color: #fff;
+}
+
+.project__para {
+  font-family: "Inter", sans-serif;
+  font-size: 2rem;
+  line-height: 2.8rem;
+  font-weight: 400;
+}
+
+.project__list {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.project__list-item {
+  font-size: 1.8rem;
+  font-weight: 500;
+  border: 1px solid #8993a4;
+  width: 100%;
+  height: 100%;
+  padding: 10px 12px;
+  margin-right: 12px;
+  align-items: center;
+}
+
+.project__btn {
+  background: #ff6b00;
+  border: 1px solid #ff6b00;
+  text-decoration: none;
+  padding: 1.2rem;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.7rem;
+  line-height: 2.4rem;
+  letter-spacing: 0.03em;
+  color: #fff;
+  transition: all 0.7s;
+}
+
+.project__btn:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
+.project__btn:active {
+  background-color: #e05304;
+  color: #f4f1f0;
+  border: 1px solid #e05304;
+}
+
+.project__btn:disabled {
+  background-color: #f4f1f0;
+  color: #5b5957;
+  border: 1px solid #f4f1f0;
+}
+
+.project__second-container {
+  display: grid;
+  grid-template-columns: repeat(1, 3fr);
+  column-gap: 2.4rem;
+  row-gap: 3.7rem;
+}
+
+.project__second {
+  background-image: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url('./assets/art-printing.svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.project__second-fill {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 8rem 1.6rem 2rem 1.6rem;
+  gap: 1.2rem;
+}
+
+.project__second--para {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+.project__second-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.project__second-list-item {
+  padding: 1rem 1.2rem;
+  background: rgba(255, 255, 255, 0.24);
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  color: #fff;
+}
+
+.project__btn-long {
+  width: 100%;
+  background-color: #ff6b00;
+  color: #fff;
+  padding: 1.6rem;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.7rem;
+  line-height: 2.4rem;
+  letter-spacing: 0.03em;
+}
+
+.project__btn-long:hover,
+.project__btn-long:active {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
