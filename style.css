@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 50%;
+  overflow-x: hidden;
+}
+
 body {
   overflow-x: hidden;
 }
@@ -42,6 +47,9 @@ li {
   margin-left: 15%;
 }
 
+.padding-left-right {
+  padding: 0 2.4rem;
+}
 
 /*
 Navbar
@@ -74,5 +82,81 @@ nav {
 }
 
 /*
-
+About me
 */
+
+.about-me__section {
+  background-color: #1c1a19;
+  color: #fff;
+  padding-top: 12rem;
+  padding-bottom: 18rem;
+  position: relative;
+}
+
+.about-me__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.about-me__text {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+#about-me__title {
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 5.6rem;
+  line-height: 6.4rem;
+  letter-spacing: 0.037rem;
+  color: #ff6b00;
+}
+
+.about-me__sub-title {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+}
+
+.about-me__para {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  margin-bottom: 2.4rem;
+}
+
+.about-me__social-media {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.about-me__social-media a {
+  text-decoration: none;
+}
+
+.about-me__logo {
+  color: #dbd8d7;
+  font-size: 24px;
+  padding: 4px 12px;
+}
+
+.about-me__img-box {
+  background-image: url('./assets/Illustration.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  min-height: 100%;
+  min-width: 30%;
+  position: absolute;
+  top: 25%;
+  right: 0;
+}
