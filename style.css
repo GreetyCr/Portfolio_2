@@ -14,14 +14,11 @@ hr {
 html {
   font-size: 50%;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
   overflow-x: hidden;
-}
-
-html {
-  scroll-behavior: smooth;
 }
 
 .flex_row {
@@ -195,7 +192,8 @@ About me
   display: flex;
   align-items: center;
 }
-.project__header{
+
+.project__header {
   font-size: 4rem;
   line-height: 5.2rem;
 }
@@ -294,7 +292,7 @@ About me
   gap: 1.2rem;
 }
 
-.project__second--para{
+.project__second--para {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -303,14 +301,6 @@ About me
 }
 
 .project__second-list {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 1.2rem;
-}
-
-.project__second-list {
-  list-style: none;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -345,7 +335,7 @@ About me
 }
 
 .project__btn-long:hover,
-.project__btn-long:active  {
+.project__btn-long:active {
   background: #fff5e1;
   border: 1px solid #f55800;
   color: #f55800;
