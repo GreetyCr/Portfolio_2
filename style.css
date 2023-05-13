@@ -897,6 +897,8 @@ Footer
 
   .projects__title {
     color: #091e42;
+    width: 135%;
+    justify-content: flex-start;
   }
 
   .project__container {
@@ -907,7 +909,8 @@ Footer
   }
 
   hr {
-    width: 65vw;
+    width: 45vw;
+    margin-bottom: 10px;
   }
 
   #project__img {
@@ -1177,6 +1180,7 @@ Footer
 
   .projects__title {
     color: #091e42;
+    width: 105%;
   }
 
   .project__container {
@@ -1187,7 +1191,8 @@ Footer
   }
 
   hr {
-    width: 65vw;
+    width: 55vw;
+    margin-bottom: 20px;
   }
 
   #project__img {
