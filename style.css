@@ -284,12 +284,11 @@ About me
 
 .project__second {
   background-image: 
-  linear-gradient(
-    180.45deg,
-    rgba(38, 38, 38, 0) 0.75%,
-    rgba(38, 38, 38, 0.9) 61.94%
-    ),
-    url("./assets/art-printing.svg");
+    linear-gradient(
+      180.45deg, 
+      rgba(38, 38, 38, 0) 0.75%, 
+      rgba(38, 38, 38, 0.9) 61.94%), 
+      url("./assets/art-printing.svg");
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -1238,12 +1237,13 @@ Footer
   }
 
   .bg3 {
-    background-image: linear-gradient(
-        179.35deg,
-        rgba(38, 38, 38, 0) 0.85%,
-        rgba(38, 38, 38, 0.9) 84%
-      ),
-      url("/assets/desktop-3.svg");
+    background-image: 
+    linear-gradient(
+      179.35deg,
+      rgba(38, 38, 38, 0) 0.85%,
+      rgba(38, 38, 38, 0.9) 84%
+    ),
+    url("/assets/desktop-3.svg");
   }
 
   .project__second--para {
@@ -1260,6 +1260,7 @@ Footer
     height: 0;
     opacity: 0;
   }
+
   .about__section--wrapper {
     display: block;
     background-color: #1c1a19;
@@ -1331,9 +1332,6 @@ Footer
 
   .contact__container {
     gap: 2.4rem;
-  }
-
-  .contact__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
