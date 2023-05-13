@@ -283,10 +283,11 @@ About me
 }
 
 .project__second {
-  background-image: linear-gradient(
-      180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%
+  background-image: 
+  linear-gradient(
+    180.45deg,
+    rgba(38, 38, 38, 0) 0.75%,
+    rgba(38, 38, 38, 0.9) 61.94%
     ),
     url("./assets/art-printing.svg");
   background-repeat: no-repeat;
@@ -644,12 +645,6 @@ Footer
     transition: all 0.7s;
   }
 
-  .project__container {
-    display: grid;
-    grid-template-columns: 1.5fr 1fr;
-    gap: 2.4rem;
-  }
-
   .project__header {
     font-size: 4rem;
     line-height: 5.2rem;
@@ -680,21 +675,23 @@ Footer
   }
 
   .bg2 {
-    background-image: linear-gradient(
-        179.35deg,
-        rgba(38, 38, 38, 0) 0.85%,
-        rgba(38, 38, 38, 0.9) 84%
-      ),
-      url("/assets/desktop-2.svg");
+    background-image: 
+    linear-gradient(
+    179.35deg,
+    rgba(38, 38, 38, 0) 0.85%,
+    rgba(38, 38, 38, 0.9) 84%
+    ),
+    url("/assets/desktop-2.svg");
   }
 
   .bg3 {
-    background-image: linear-gradient(
-        179.35deg,
-        rgba(38, 38, 38, 0) 0.85%,
-        rgba(38, 38, 38, 0.9) 84%
-      ),
-      url("/assets/desktop-3.svg");
+    background-image: 
+    linear-gradient(
+      179.35deg,
+      rgba(38, 38, 38, 0) 0.85%,
+      rgba(38, 38, 38, 0.9) 84%
+    ),
+    url("/assets/desktop-3.svg");
   }
 
   .btn-remove {
@@ -957,21 +954,23 @@ Footer
   }
 
   .bg2 {
-    background-image: linear-gradient(
-        179.35deg,
-        rgba(38, 38, 38, 0) 0.85%,
-        rgba(38, 38, 38, 0.9) 84%
-      ),
-      url("/assets/desktop-2.svg");
+    background-image: 
+    linear-gradient(
+      179.35deg,
+      rgba(38, 38, 38, 0) 0.85%,
+      rgba(38, 38, 38, 0.9) 84%
+    ),
+    url("/assets/desktop-2.svg");
   }
 
   .bg3 {
-    background-image: linear-gradient(
-        179.35deg,
-        rgba(38, 38, 38, 0) 0.85%,
-        rgba(38, 38, 38, 0.9) 84%
-      ),
-      url("/assets/desktop-3.svg");
+    background-image: 
+    linear-gradient(
+      179.35deg,
+      rgba(38, 38, 38, 0) 0.85%,
+      rgba(38, 38, 38, 0.9) 84%
+    ),
+    url("/assets/desktop-3.svg");
   }
 
   .project__second--para {
@@ -1060,9 +1059,6 @@ Footer
 
   .contact__container {
     gap: 2.4rem;
-  }
-
-  .contact__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
@@ -1232,12 +1228,13 @@ Footer
   }
 
   .bg2 {
-    background-image: linear-gradient(
-        179.35deg,
-        rgba(38, 38, 38, 0) 0.85%,
-        rgba(38, 38, 38, 0.9) 84%
-      ),
-      url("/assets/desktop-2.svg");
+    background-image: 
+    linear-gradient(
+      179.35deg,
+      rgba(38, 38, 38, 0) 0.85%,
+      rgba(38, 38, 38, 0.9) 84%
+    ),
+    url("/assets/desktop-2.svg");
   }
 
   .bg3 {
