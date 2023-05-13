@@ -1354,11 +1354,14 @@ Footer
   }
 
   .contact__text-box {
-    width: 38%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
   }
 
   .contact__heading {
-    width: 40rem;
+    width: 34rem;
     font-size: 4rem;
     line-height: 5.2rem;
     text-align: start;
@@ -1373,7 +1376,7 @@ Footer
 
   .contact__form,
   .contact__group {
-    width: 98%;
+    width: 88%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
