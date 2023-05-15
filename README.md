@@ -2,7 +2,7 @@
 
 
 <div align="center">
-  <img src="./assets/Logo lujoso vintage dorado azul copy.png" alt="logo" width="140"  height="auto" />
+  <img src="/Users/randallbonilla/Desktop/Portfolio_2/assets/Logo lujoso vintage dorado azul Grande.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Portfolio Mobile First</b></h3>
